@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <Header>
+        <nav class="logo">
+            <img src="assets/coracoes.svg" alt="coracoes-logo">
+            <h1 id="header-title">AluraGeek</h1>
+        </nav>
+    </Header>
+    <main>
+        <section id="produtos">
+            <h1>MEUS PRODUTOS:</h1>
+            <div class="produtos-cards">
+                </div>
+            </div>
+        </section>
+        <section id="formulario">
+            <form class="formulario-corpo" action="" method="post" data-formulario>
+                <h1>ADICIONAR PRODUTO:</h1>
+
+                <fieldset class="formulario-campo"><input type="text" class="formulario-campo-input" placeholder="nome..." data-nome></fieldset>
+                <fieldset class="formulario-campo"><input type="text" class="formulario-campo-input" placeholder="valor..." data-valor></fieldset>
+                <fieldset class="formulario-campo"><input type="text" class="formulario-campo-input" placeholder="imagem..." data-imagem></fieldset>
+                <div class="btn">
+                    <fielset class="formulario-campo-botao"><button id="btn-guardar" type="submit">Guardar</button></fielset>
+                    <fielset class="formulario-campo-botao"><button id="btn-limpar">Limpar</button></fielset>
+                </div>
+            </form>
+        </section>
+    </main>
+    <Footer>
+        <div class="logo">
+            <img src="assets/coracoes.svg" alt="">
+            <h1 id="header-title">AluraGeek</h1>
+        </div>
+        <p>DESENVOLVIDO POR PAULO RICARDO - 2024</p>
+    </Footer>
+    <script type="module" src="js/mostrarProdutos.js"></script>
+    <script type="module" src="js/criarProduto.js"></script>
+</body>
+</html>

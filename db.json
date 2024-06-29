@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {
+      "nome": "Game Boy",
+      "valor": "78",
+      "imagem": "image.png",
+      "id": 2
+    }
+  ]
+}

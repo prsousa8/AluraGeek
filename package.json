@@ -1,0 +1,11 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Projeto focado em trabalhar com requisições POST, GET e DELETE usando json-server como servidor local. A proposta é cadastrar, exibir e deletar cards com produtos focados no mundo geek.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
