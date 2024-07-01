@@ -5,6 +5,12 @@
       "valor": "78",
       "imagem": "image.png",
       "id": 2
+    },
+    {
+      "nome": "Game boy",
+      "valor": "89.0",
+      "imagem": "image.png",
+      "id": 3
     }
   ]
 }
